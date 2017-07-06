@@ -27,5 +27,6 @@ $( document ).ready(function() {
     if(res){
       $(this).off('submit').submit();
     };
+    return res;
   });
 });
